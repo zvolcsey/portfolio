@@ -1,12 +1,28 @@
 {
-  "name": "portfolio",
+  "name": "zoltan-volcsey-portfolio",
   "version": "0.1.0",
+  "description": "Portfolio website for Zoltán Völcsey - Full-stack web developer",
+  "author": "Zoltán Völcsey <zvolcsey@gmail.com>",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zvolcsey/portfolio"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "full-stack",
+    "web-developer"
+  ],
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "19.1.0",
