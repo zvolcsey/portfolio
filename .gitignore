@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore all .vscode folder contents
+.vscode/*
+
+# But allow specific files in .vscode folder
+!.vscode/settings.json
+!.vscode/extensions.json

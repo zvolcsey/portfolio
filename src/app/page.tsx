@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Home | Zoltán Völcsey",
+  title: 'Home | Zoltán Völcsey',
   description:
-    "Portfolio website for Zoltán Völcsey - Full-stack web developer",
+    'Portfolio website for Zoltán Völcsey - Full-stack web developer',
   icons: {
-    icon: "/favicon.ico",
+    icon: '/favicon.ico',
   },
 };
 

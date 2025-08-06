@@ -1,12 +1,12 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "Portfolio | Zoltán Völcsey",
+  title: 'Portfolio | Zoltán Völcsey',
   description:
-    "Portfolio website for Zoltán Völcsey - Full-stack web developer",
+    'Portfolio website for Zoltán Völcsey - Full-stack web developer',
   icons: {
-    icon: "/favicon.ico",
+    icon: '/favicon.ico',
   },
 };
 
