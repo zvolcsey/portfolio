@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { links } from '@/lib/data';
 import { cn } from '@/lib/utils';
-import '@app/components.css';
 import NavLink from './nav-link';
+
+import '@app/components.css';
 
 export default function MainHeader() {
   return (
