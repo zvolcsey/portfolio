@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import MainHeader from '@/components/header/main-header';
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Zoltán Völcsey',
+  title: 'Zoltán Völcsey | Full Stack Developer',
   description:
     'Portfolio website for Zoltán Völcsey - Full-stack web developer',
   icons: {
@@ -16,8 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang='en'>
+      <body className='bg-background text-foreground m-0'>
+        <MainHeader />
+        <main className='pt-20'>{children}</main>
+      </body>
     </html>
   );
 }

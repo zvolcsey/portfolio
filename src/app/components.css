@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@import './globals.css';
+
+@layer components {
+  .nav-link {
+    @apply relative pb-0.5 text-base font-medium sm:text-lg;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 h-0.5 w-1/2 rounded-sm content-[''];
+  }
+
+  .nav-link:hover::after {
+    @apply bg-foreground;
+  }
+
+  .nav-link.active::after {
+    @apply bg-primary;
+  }
+}

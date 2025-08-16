@@ -37,6 +37,10 @@ Make sure you have Node.js v20 or higher.
   npm run dev
 ```
 
+## Inspiration
+
+I was inspired by the [video](https://www.youtube.com/watch?v=sUKptmUVIBM) of ByteGrad Youtube channel.
+
 ## Port
 
 The project uses 3000.
