@@ -1,11 +1,5 @@
 @import 'tailwindcss';
 
-@theme {
-  --color-background: oklch(98.4% 0.003 247.858); /* slate-50 */
-  --color-foreground: oklch(12.9% 0.042 264.695); /* slate-950 */
-  --color-primary: oklch(54.6% 0.245 262.881) /* blue-600 */;
-}
-
 @layer base {
   html {
     @apply box-border font-sans;

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import MainHeader from '@/components/header/main-header';
 
 import './globals.css';
+import './components.css';
 
 export const metadata: Metadata = {
   title: 'Zoltán Völcsey | Full Stack Developer',
@@ -19,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className='bg-background text-foreground m-0'>
+      <body>
         <MainHeader />
         <main className='pt-20'>{children}</main>
       </body>
