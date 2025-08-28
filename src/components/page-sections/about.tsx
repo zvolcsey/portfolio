@@ -1,11 +1,33 @@
 import { cn } from '@/lib/utils';
+import { Badge } from '../ui/badge';
 
 export default function About() {
   return (
     <section className='px-4 pt-4 pb-16 sm:pb-24'>
-      <div className={cn('mx-auto max-w-3xl space-y-8', 'text-center')}>
-        <h2 className='text-2xl font-bold'>About me</h2>
-        <p>TODO</p>
+      <div className={cn('mx-auto w-full max-w-3xl space-y-8', 'text-center')}>
+        <h2 className='text-2xl font-bold'>About Me</h2>
+        <div className='flex flex-wrap items-center justify-center gap-2'>
+          <Badge className='bg-primary'>Open Source Contributor</Badge>
+          <Badge className='border-primary'>Problem Solver</Badge>
+          <Badge className='border-primary'>TypeScript Enthusiast</Badge>
+          <Badge className='border-primary'>System-Oriented Mindset</Badge>
+        </div>
+        <p className={cn('mx-auto mb-4 w-full max-w-2xl', 'text-left')}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+          commodi ipsa tenetur voluptas impedit. Perferendis voluptates
+          inventore deserunt voluptatum voluptatem architecto, maxime commodi
+          saepe ipsum beatae explicabo tenetur quibusdam sunt quasi minima
+          numquam minus cum incidunt fugiat fuga, consectetur quod eveniet amet
+          aperiam?
+        </p>
+        <p className={cn('mx-auto w-full max-w-2xl', 'text-left')}>
+          Cumque culpa animi incidunt harum eum impedit totam distinctio magnam
+          maxime enim quaerat eligendi quia laborum repellendus fuga laudantium
+          saepe quae quibusdam odit tempora, illo quas? Facilis culpa rerum quis
+          beatae architecto sunt a, explicabo quam illo. Architecto perferendis,
+          magnam libero voluptas eos aperiam distinctio! Ipsum odio suscipit
+          quos modi ex perferendis soluta
+        </p>
       </div>
     </section>
   );
