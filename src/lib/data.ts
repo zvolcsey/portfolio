@@ -45,3 +45,28 @@ export const projects = [
     imageUrl: undefined,
   },
 ] as const;
+
+export const articles = [
+  {
+    id: 'article-1',
+    title: 'Article 1',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    publishedAt: '2025-01-01',
+    readingTime: '5 min read',
+  },
+  {
+    id: 'article-2',
+    title: 'Article 2',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    publishedAt: '2025-02-15',
+    readingTime: '8 min read',
+  },
+  {
+    id: 'article-3',
+    title: 'Article 3',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    publishedAt: '2025-03-10',
+    readingTime: '6 min read',
+  },
+] as const;
